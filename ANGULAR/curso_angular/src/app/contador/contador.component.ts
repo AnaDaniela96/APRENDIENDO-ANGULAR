@@ -12,4 +12,15 @@ export class ContadorComponent {
     nombre: 'Daniela Andrade',
     edad: 30
   };
+
+  numero: number = 1;
+
+  decrementar() {
+    this.numero --;
+  }
+
+  incrementar(){
+    this.numero += 1;
+  }
+
 }
